@@ -351,6 +351,7 @@ ol.type li a:hover {
 	height: 260px;
 	overflow: hidden;
 	position: relative;
+	border-radius: 10px;
 }
 .hover-bg .hover-text {
 	position: absolute;
