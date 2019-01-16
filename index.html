@@ -1,281 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Montique Stevens: Web Developer</title>
-<meta name="description" content="">
-<meta name="author" content="">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Montique Stevens: Web Developer</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-<!-- Favicons1
+  <!-- Favicons1
     ================================================== -->
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
-<!-- Bootstrap -->
-<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
-..
-<!-- Stylesheet
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+  ..
+  <!-- Stylesheet
     ================================================== -->
-<link rel="stylesheet" type="text/css"  href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
-<link rel="stylesheet" type="text/css" href="css/animate.css">
-<link rel="stylesheet" href="css/devicon.css">
-<link rel="stylesheet" href="css/devicon-colors.css">
-<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" href="css/devicon.css">
+  <link rel="stylesheet" href="css/devicon-colors.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
-<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="js/modernizr.custom.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="js/modernizr.custom.js"></script>
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-<!-- Header -->
-<header id="header">
-  <div class="intro">
-    <div class="container">
-      <div class="row">
-        <div class="intro-text">
+  <!-- Header -->
+  <header id="header">
+    <div class="intro">
+      <div class="container">
+        <div class="row">
+          <div class="intro-text">
             <h1>
-                <span class="txt-rotate"
-                   data-period="2000"
-                   data-rotate='[ "Montique Stevens" ]'></span>
-              </h1>
-          <p>Web Developer</p>
-          <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
+              <span class="txt-rotate" data-period="2000" data-rotate='[ "Montique Stevens" ]'></span>
+            </h1>
+            <p>Web Developer</p>
+            <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a>
+          </div>
+        </div>
       </div>
     </div>
+  </header>
+  <!-- Navigation -->
+  <div id="nav">
+    <nav class="navbar navbar-custom">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i
+              class="fa fa-bars"></i> </button>
+          <a class="navbar-brand page-scroll" href="#page-top">Montique Stevens</a> </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+          <ul class="nav navbar-nav">
+            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+            <li class="hidden"> <a href="#page-top"></a> </li>
+            <li> <a class="page-scroll" href="#about">About</a> </li>
+            <li> <a class="page-scroll" href="#skills">Skills</a> </li>
+            <li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
+            <li> <a class="page-scroll" href="#contact">Contact</a> </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </div>
-</header>
-<!-- Navigation -->
-<div id="nav">
-  <nav class="navbar navbar-custom">
+  <!-- About Section (insert portrait photo in this section) -->
+  <div id="about">
     <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
-        <a class="navbar-brand page-scroll" href="#page-top">Montique Stevens</a> </div>
-      
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-        <ul class="nav navbar-nav">
-          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-          <li class="hidden"> <a href="#page-top"></a> </li>
-          <li> <a class="page-scroll" href="#about">About</a> </li>
-          <li> <a class="page-scroll" href="#skills">Skills</a> </li>
-          <li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
-          <li> <a class="page-scroll" href="#contact">Contact</a> </li>
-        </ul>
+      <div class="section-title text-center center">
+        <h2>About Me</h2>
+        <hr>
       </div>
-    </div>
-  </nav>
-</div>
-<!-- About Section (insert portrait photo in this section) -->
-<div id="about">
-  <div class="container">
-    <div class="section-title text-center center">
-      <h2>About Me</h2>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-md-12 text-center"><img src="img/portfolio/portraitme2.jpg" class="img-responsive"></div>
-      <div class="col-md-8 col-md-offset-2">
-        <div class="about-text">
-          <p>Hi, Im Montique Stevens, a full stack web developer and designer from New York City. I enjoy everything involving web design, user experience, human-computer interaction, and the internet of things. My passion for design and technology started from my youth and eventually transitioned into me pursuing a degree in Computer Information Systems and currently in pursuit of another in Multimedia Computing with a focus on Cognitive Science. I been naviagting the world of web development for the past 3 years, picking up and honing my skills along the way.</p> 
-          
-          <p>In addition to spending my time working with HTML5, CSS3, and JavaScript, I also work with essential frameworks such as Bootstrap, Foundation, and Propeller. On my downtime, you can find me hanging out on twitter or expressing my love of sights, tastes, and sounds on Instagram. I am also a avid foodie and regularly take pics for my Instagram feed as well as for my WordPress blog.</p>
-          <p class="text-center"><a class="btn btn-primary" href="https://drive.google.com/open?id=1EPdDs5eNJPp_te04DVVv-xXuBbXpISeK"><i class="fa fa-download"></i> Download Resume</a></p>
+      <div class="row">
+        <div class="col-md-12 text-center"><img src="img/portfolio/portraitme2.jpg" class="img-responsive"></div>
+        <div class="col-md-8 col-md-offset-2">
+          <div class="about-text">
+            <p>Hi, Im Montique Stevens, a full stack web developer and designer from New York City. I enjoy everything
+              involving web design, user experience, human-computer interaction, and the internet of things. My passion
+              for design and technology started from my youth and eventually transitioned into me pursuing a degree in
+              Computer Information Systems and currently in pursuit of another in Multimedia Computing with a focus on
+              Cognitive Science. I been naviagting the world of web development for the past 3 years, picking up and
+              honing my skills along the way.</p>
+
+            <p>In addition to spending my time working with HTML5, CSS3, and JavaScript, I also work with essential
+              frameworks such as Bootstrap, Foundation, and Propeller. On my downtime, you can find me hanging out on
+              twitter or expressing my love of sights, tastes, and sounds on Instagram. I am also a avid foodie and
+              regularly take pics for my Instagram feed as well as for my WordPress blog.</p>
+            <p class="text-center"><a class="btn btn-primary" href="https://drive.google.com/open?id=1EPdDs5eNJPp_te04DVVv-xXuBbXpISeK"><i
+                  class="fa fa-download"></i> Download Resume</a></p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<!-- Skills Section -->
-<div id="skills" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>Skills</h2>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-md-4 col-sm-6 skill"> 
-        <h4>HTML5 <i class="devicon-html5-plain colored" style="font-size:60px;"></i></h4>
+  <!-- Skills Section -->
+  <div id="skills" class="text-center">
+    <div class="container">
+      <div class="section-title center">
+        <h2>Skills</h2>
+        <hr>
       </div>
-      <div class="col-md-4 col-sm-6 skill"> 
-        <h4>CSS3 <i class="devicon-css3-plain colored" style="font-size:60px;"></i></h4>
-      </div>
-      <div class="col-md-4 col-sm-6 skill"> 
-        <h4>jQuery <i class="devicon-jquery-plain colored" style="font-size:60px;"></i></h4>
-      </div>
-      <div class="col-md-4 col-sm-6 skill"> 
-        <h4>Bootstrap <i class="devicon-bootstrap-plain colored" style="font-size:60px;"></i></h4>
-      </div>
-      <div class="col-md-4 col-sm-6 skill"> 
-        <h4>Javascript <i class="devicon-javascript-plain colored" style="font-size:60px;"></i></h4>
-      </div>
-      <div class="col-md-4 col-sm-6 skill"> 
-        <h4>Wordpress <i class="devicon-wordpress-plain colored" style="font-size:60px;"></i></h4>
-      </div>
-      <div class="col-md-4 col-sm-6 skill"> 
-        <h4>C++ <i class="devicon-cplusplus-plain colored" style="font-size:60px;"></i></h4>
-      </div>
-      <div class="col-md-4 col-sm-6 skill"> 
+      <div class="row">
+        <div class="col-md-4 col-sm-6 skill">
+          <h4>HTML5 <i class="devicon-html5-plain colored" style="font-size:60px;"></i></h4>
+        </div>
+        <div class="col-md-4 col-sm-6 skill">
+          <h4>CSS3 <i class="devicon-css3-plain colored" style="font-size:60px;"></i></h4>
+        </div>
+        <div class="col-md-4 col-sm-6 skill">
+          <h4>jQuery <i class="devicon-jquery-plain colored" style="font-size:60px;"></i></h4>
+        </div>
+        <div class="col-md-4 col-sm-6 skill">
+          <h4>Bootstrap <i class="devicon-bootstrap-plain colored" style="font-size:60px;"></i></h4>
+        </div>
+        <div class="col-md-4 col-sm-6 skill">
+          <h4>Javascript <i class="devicon-javascript-plain colored" style="font-size:60px;"></i></h4>
+        </div>
+        <div class="col-md-4 col-sm-6 skill">
+          <h4>Wordpress <i class="devicon-wordpress-plain colored" style="font-size:60px;"></i></h4>
+        </div>
+        <div class="col-md-4 col-sm-6 skill">
+          <h4>C++ <i class="devicon-cplusplus-plain colored" style="font-size:60px;"></i></h4>
+        </div>
+        <div class="col-md-4 col-sm-6 skill">
           <h4>Git <i class="devicon-git-plain colored" style="font-size:60px;"></i></h4>
-      </div>
-      <div class="col-md-4 col-sm-6 skill"> 
+        </div>
+        <div class="col-md-4 col-sm-6 skill">
           <h4>Java <i class="devicon-java-plain colored" style="font-size:60px;"></i></h4>
         </div>
 
 
-    </div>
-  </div>
-</div>
-<!-- Portfolio Section -->
-<div id="portfolio">
-  <div class="container">
-    <div class="section-title text-center center">
-      <h2>Portfolio</h2>
-      <hr>
-    </div>
-    <div class="categories">
-      <ul class="cat">
-        <li>
-          <ol class="type">
-            <li><a href="#" data-filter="*" class="active">All</a></li>
-            <li><a href="#" data-filter=".web">Concepts</a></li>
-            <li><a href="#" data-filter=".app">Blogging</a></li>
-        </ol>
-        </li>
-      </ul>
-      <div class="clearfix"></div>
-    </div>
-    <div class="row">
-      <div class="portfolio-items">
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/01-large.jpg" title="Example of a tribute Site for the Worlds Fair in Queens" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Tribute Site</h4>
-                <small>Web Design</small> </div>
-              <img src="img/portfolio/01-small.jpg" class="img-responsive" alt="Tribute Site"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/02-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>App Development</small> </div>
-              <img src="img/portfolio/02-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/03-large.jpg" title="This is an example of a card based view of a product being offered on a site. Made according to Google's Material Design guidelines." rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Material Design Card</h4>
-                <small>Web Design</small> </div>
-              <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/04-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Web Design</small> </div>
-              <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/05-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>App Development</small> </div>
-              <img src="img/portfolio/05-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 branding">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/06-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Branding</small> </div>
-              <img src="img/portfolio/06-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 branding app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>App Development, Branding</small> </div>
-              <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Web Design</small> </div>
-              <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
-</div>
-
-          
-         
-<!-- Contact Section -->
-<div id="contact" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>Lets Keep In Touch!</h2>
-      <hr>
-    </div>
-    <div class="col-md-8 col-md-offset-2">
-      <div class="social">
-        <ul>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-github"></i></a></li>
-          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+  <!-- Portfolio Section -->
+  <div id="portfolio">
+    <div class="container">
+      <div class="section-title text-center center">
+        <h2>Portfolio</h2>
+        <hr>
+      </div>
+      <div class="categories">
+        <ul class="cat">
+          <li>
+            <ol class="type">
+              <li><a href="#" data-filter="*" class="active">All</a></li>
+              <li><a href="#" data-filter=".web">Concepts</a></li>
+              <li><a href="#" data-filter=".app">Blogging</a></li>
+            </ol>
+          </li>
         </ul>
+        <div class="clearfix"></div>
+      </div>
+      <div class="row">
+        <div class="portfolio-items">
+          <div class="col-sm-6 col-md-3 col-lg-3 web">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/portfolio/01-large.jpg" title="Example of a tribute Site for the Worlds Fair in Queens"
+                  rel="prettyPhoto">
+                  <div class="hover-text">
+                    <h4>Tribute Site</h4>
+                    <small>Web Design</small>
+                  </div>
+                  <img src="img/portfolio/01-small.jpg" class="img-responsive" alt="Tribute Site">
+                </a> </div>
+              <a data-v-4b155e36="" href="https://github.com/nycbeardo/material-design-card" class="project__source"><svg
+                  data-v-4b155e36="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"
+                  data-darkreader-inline-fill="" data-darkreader-inline-stroke="" style="--darkreader-inline-fill:none; --darkreader-inline-stroke:currentColor;">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg> <span data-v-4b155e36="">View source on GitHub</span></a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 col-lg-3 app">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/portfolio/02-large.jpg" title="Project description" rel="prettyPhoto">
+                  <div class="hover-text">
+                    <h4>Project Title</h4>
+                    <small>App Development</small>
+                  </div>
+                  <img src="img/portfolio/02-small.jpg" class="img-responsive" alt="Project Title">
+                </a> </div>
+              <a data-v-4b155e36="" href="https://github.com/nycbeardo/material-design-card" class="project__source"><svg
+                  data-v-4b155e36="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"
+                  data-darkreader-inline-fill="" data-darkreader-inline-stroke="" style="--darkreader-inline-fill:none; --darkreader-inline-stroke:currentColor;">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg> <span data-v-4b155e36="">View source on GitHub</span></a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 col-lg-3 web">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/portfolio/03-large.jpg" title="This is an example of a card based view of a product being offered on a site. Made according to Google's Material Design guidelines."
+                  rel="prettyPhoto">
+                  <div class="hover-text">
+                    <h4>Material Design Card</h4>
+                    <small>Web Design</small>
+                  </div>
+                  <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Material Design Card">
+                </a> </div>
+              <a data-v-4b155e36="" href="https://github.com/nycbeardo/material-design-card" class="project__source"><svg
+                  data-v-4b155e36="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"
+                  data-darkreader-inline-fill="" data-darkreader-inline-stroke="" style="--darkreader-inline-fill:none; --darkreader-inline-stroke:currentColor;">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg> <span data-v-4b155e36="">View source on GitHub</span></a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 col-lg-3 web">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/portfolio/04-large.jpg" title="Project description" rel="prettyPhoto">
+                  <div class="hover-text">
+                    <h4>Project Title</h4>
+                    <small>Web Design</small>
+                  </div>
+                  <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title">
+                </a> </div>
+              <a data-v-4b155e36="" href="https://github.com/nycbeardo/material-design-card" class="project__source"><svg
+                  data-v-4b155e36="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"
+                  data-darkreader-inline-fill="" data-darkreader-inline-stroke="" style="--darkreader-inline-fill:none; --darkreader-inline-stroke:currentColor;">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg> <span data-v-4b155e36="">View source on GitHub</span></a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 col-lg-3 app">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/portfolio/05-large.jpg" title="Project description" rel="prettyPhoto">
+                  <div class="hover-text">
+                    <h4>Project Title</h4>
+                    <small>App Development</small>
+                  </div>
+                  <img src="img/portfolio/05-small.jpg" class="img-responsive" alt="Project Title">
+                </a> </div>
+              <a data-v-4b155e36="" href="https://github.com/nycbeardo/material-design-card" class="project__source"><svg
+                  data-v-4b155e36="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"
+                  data-darkreader-inline-fill="" data-darkreader-inline-stroke="" style="--darkreader-inline-fill:none; --darkreader-inline-stroke:currentColor;">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg> <span data-v-4b155e36="">View source on GitHub</span></a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 col-lg-3 branding">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/portfolio/06-large.jpg" title="Project description" rel="prettyPhoto">
+                  <div class="hover-text">
+                    <h4>Project Title</h4>
+                    <small>Branding</small>
+                  </div>
+                  <img src="img/portfolio/06-small.jpg" class="img-responsive" alt="Project Title">
+                </a> </div>
+              <a data-v-4b155e36="" href="https://github.com/nycbeardo/material-design-card" class="project__source"><svg
+                  data-v-4b155e36="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"
+                  data-darkreader-inline-fill="" data-darkreader-inline-stroke="" style="--darkreader-inline-fill:none; --darkreader-inline-stroke:currentColor;">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg> <span data-v-4b155e36="">View source on GitHub</span></a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 col-lg-3 branding app">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Project description" rel="prettyPhoto">
+                  <div class="hover-text">
+                    <h4>Project Title</h4>
+                    <small>App Development, Branding</small>
+                  </div>
+                  <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Project Title">
+                </a> </div>
+              <a data-v-4b155e36="" href="https://github.com/nycbeardo/material-design-card" class="project__source"><svg
+                  data-v-4b155e36="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"
+                  data-darkreader-inline-fill="" data-darkreader-inline-stroke="" style="--darkreader-inline-fill:none; --darkreader-inline-stroke:currentColor;">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg> <span data-v-4b155e36="">View source on GitHub</span></a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 col-lg-3 web">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Project description" rel="prettyPhoto">
+                  <div class="hover-text">
+                    <h4>Project Title</h4>
+                    <small>Web Design</small>
+                  </div>
+                  <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title">
+                </a> </div>
+              <a data-v-4b155e36="" href="https://github.com/nycbeardo/material-design-card" class="project__source"><svg
+                  data-v-4b155e36="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"
+                  data-darkreader-inline-fill="" data-darkreader-inline-stroke="" style="--darkreader-inline-fill:none; --darkreader-inline-stroke:currentColor;">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg> <span data-v-4b155e36="">View source on GitHub</span></a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
-<div id="footer">
-  <div class="container text-center">
-    <div class="fnav">
-      <p>Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire.</a> Modified by Montique Stevens</p>
+
+
+
+  <!-- Contact Section -->
+  <div id="contact" class="text-center">
+    <div class="container">
+      <div class="section-title center">
+        <h2>Lets Keep In Touch!</h2>
+        <hr>
+      </div>
+      <div class="col-md-8 col-md-offset-2">
+        <div class="social">
+          <ul>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-github"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
-<script type="text/javascript" src="js/bootstrap.js"></script> 
-<script type="text/javascript" src="js/SmoothScroll.js"></script> 
-<script type="text/javascript" src="js/easypiechart.js"></script> 
-<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
-<script type="text/javascript" src="js/jquery.isotope.js"></script> 
-<script type="text/javascript" src="js/jquery.counterup.js"></script> 
-<script type="text/javascript" src="js/waypoints.js"></script> 
-<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-<script type="text/javascript" src="js/contact_me.js"></script> 
-<script type="text/javascript" src="js/main.js"></script>
-<script type="text/javascript" src="js/carouseltype.js"></script>
-<script type="text/javascript" src="js/gulpfile.js"></script>
+  <div id="footer">
+    <div class="container text-center">
+      <div class="fnav">
+        <p>Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire.</a> Modified by Montique
+          Stevens</p>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/SmoothScroll.js"></script>
+  <script type="text/javascript" src="js/easypiechart.js"></script>
+  <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+  <script type="text/javascript" src="js/jquery.isotope.js"></script>
+  <script type="text/javascript" src="js/jquery.counterup.js"></script>
+  <script type="text/javascript" src="js/waypoints.js"></script>
+  <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+  <script type="text/javascript" src="js/contact_me.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/carouseltype.js"></script>
+  <script type="text/javascript" src="js/gulpfile.js"></script>
 </body>
+
 </html>
