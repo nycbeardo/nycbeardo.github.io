@@ -11,7 +11,7 @@ export default class about extends Component {
             <hr />
           </div>
           <div className="row">
-            <div className="col-md-12 text-center"><img src="img/portfolio/portraitme2.jpg" alt="" className="img-responsive" /></div>
+            <div className="col-md-12 text-center"><img src="img/example/portraitme2.jpg" alt="" className="img-responsive" /></div>
             <div className="col-md-8 col-md-offset-2">
               <div className="about-text">
                 <p>Hi, Im Montique Stevens, a full stack web developer and designer from New York City. I enjoy everything
