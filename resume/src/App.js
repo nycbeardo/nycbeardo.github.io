@@ -4,7 +4,7 @@ import About from './components/about/about';
 import Resume from './components/resume/resume';
 import Portfolio from './components/portfolio/portfolio';
 import Footer from './components/footer/footer';
-import Contact from './components/contact/contact'
+import Contact from './components/contact/contact';
 import resumeData from './resumeData';
 class App extends Component {
   render() {
