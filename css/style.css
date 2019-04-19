@@ -2,7 +2,7 @@ body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	background-color: #7D9599;
+	background-color: whitesmoke;
     width: 100% !important;
 	height: 100% !important;
 }
@@ -212,7 +212,10 @@ hr {
 /* About Section */
 #about {
 	padding: 100px 0;
-	background: #E9CDA2;
+	background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 #about .about-text {
 	margin-left: 10px;
@@ -275,14 +278,13 @@ hr {
 /* Portfolio Section */
 #portfolio {
 	padding: 80px 0;
-	background: #E9CDA2; /* Old browsers */
-	background: -moz-linear-gradient(top, #E9CDA2 0%, #E9CDA2 49%, #E9CDA2 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #E9CDA2), color-stop(49%, #E9CDA2), color-stop(100%, #E9CDA2)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #E9CDA2 0%, #E9CDA2 49%, #E9CDA2 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #E9CDA2 0%, #E9CDA2 49%, #E9CDA2 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #E9CDA2 0%, #E9CDA2 49%, #E9CDA2 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #E9CDA2 0%, #E9CDA2 49%, #E9CDA2 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E9CDA2', endColorstr='#E9CDA2', GradientType=0 ); /* IE6-9 */
+	background:  whitesmoke; /* Old browsers */
+	background: #ADA996;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+
+
 }
 .categories {
 	padding-bottom: 30px;
