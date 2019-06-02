@@ -2,11 +2,17 @@ body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	background-color: whitesmoke;
+	background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1b1b1d, #1c1c1d);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1c1c1d, #1a1a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     width: 100% !important;
 	height: 100% !important;
 }
 
+header#header {
+	padding-top: 0%;
+}
 
 h1,p {
 	font-weight: 700;
