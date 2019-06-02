@@ -231,13 +231,13 @@ hr {
 /* Skills Section */
 #skills {
 	padding: 100px 0;
-	background: #90A4AE;
+	background: rgb(250, 249, 246);;
 }
 #skills h2 {
-	color: #fff;
+	color: rgb(8, 8, 8);
 }
 #skills hr {
-	background: rgba(255,255,255,0.3);
+	background: rgba(28, 173, 218, 0.548);
 }
 #skills .skill {
 	margin-bottom: 40px;
@@ -246,7 +246,7 @@ hr {
 }
 #skills .skill h4 {
 	font-weight: 600;
-	color: #fff;
+	color: rgb(12, 12, 12);
 }
 .chart {
 	position: relative;
