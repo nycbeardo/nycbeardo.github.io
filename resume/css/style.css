@@ -235,6 +235,8 @@ hr {
 	width: 200px;
 	height: 200px;
 	display: inline-block;
+	-webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 #about p {
 	margin-top: 20px;
