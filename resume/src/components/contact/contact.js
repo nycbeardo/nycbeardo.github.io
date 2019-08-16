@@ -15,6 +15,8 @@ export default class Contact extends Component {
                 <li><a href="https://twitter.com/NYCBEARDO"><i className="fa fa-twitter" /></a></li>
                 <li><a href="https://github.com/nycbeardo"><i className="fa fa-github" /></a></li>
                 <li><a href="https://www.linkedin.com/in/montique-stevens/"><i className="fa fa-linkedin" /></a></li>
+                <li><a href="https://objector.netlify.com"><i className="fa fa-pencil-square-o" /></a></li>
+                
               </ul>
             </div>
           </div>
