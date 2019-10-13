@@ -13,16 +13,17 @@ export default class About extends Component {
             <div className="col-md-12 text-center"><img src="img/example/portraitme2.jpg" className="img-responsive" /></div>
             <div className="col-md-8 col-md-offset-2">
               <div className="about-text">
-                <p>Hi, Im Montique Stevens, a full stack web developer and designer from New York City. I enjoy everything
-                  involving web design, user experience, human-computer interaction, and the internet of things. My passion
-                  for design and technology started from my youth and eventually transitioned into me pursuing a degree in
-                  Computer Information Systems and currently in pursuit of another in Multimedia Computing with a focus on
-                  Cognitive Science. I been naviagting the world of web development for the past 3 years, picking up and
-                  honing my skills along the way.</p>
-                <p>In addition to spending my time working with HTML5, CSS3, and JavaScript, I also work with essential
-                  frameworks such as Bootstrap, Foundation, and Propeller. On my downtime, you can find me hanging out on
-                  twitter or expressing my love of sights, tastes, and sounds on Instagram. I am also a avid foodie and
-                  regularly take pics for my Instagram feed as well as for my WordPress blog.</p>
+              <p>I am a curious, self driven Web Developer and UI/UX designer based in NYC who is passionate 
+              in Digital Art, Emerging technologies, Human-Computer Interaction, accessability in UI/UX design, and tech education for underrepresented and marginalized groups. 
+              I believe in advocating for good design that is easy to use, provides a enjoyable experience and most importantly has good social impact for society at large.</p>
+
+
+            <p>In addition I believe continuous learning about new methodologies as well as understanding one another and 
+              fair collaboration is crucial when it comes to the projects and products we build. 
+              Thoughtful design and equality in tech and design are extremely important in today's ever connected world. 
+              I strive to promote and embrace these ideas when I am connecting with others from all walks of life, 
+              through social media, <a class="linky" href="https://objector.netlify.com"> my personal blog</a>, and even in person at conferences and meetups.
+            </p>
                 <p className="text-center"><a className="btn btn-primary" href="https://drive.google.com/open?id=1EPdDs5eNJPp_te04DVVv-xXuBbXpISeK"><i className="fa fa-download" /> Download Resume</a></p>
               </div>
             </div>

@@ -246,6 +246,11 @@ clip-path: circle(50% at 50% 50%);
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
+
+a.linky { 
+	text-decoration-line: underline;
+}
+
 /* Skills Section */
 #skills {
 	padding: 100px 0;

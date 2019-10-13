@@ -242,6 +242,10 @@ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
+
+a.linky { 
+	text-decoration-line: underline;
+}
 /* Skills Section */
 #skills {
 	padding: 100px 0;
