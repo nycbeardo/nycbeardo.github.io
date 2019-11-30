@@ -119,7 +119,7 @@ hr {
 }
 .navbar-custom {
 	margin-bottom: 0;
-	background-color: black;
+	background-color: #1a2c5b;
 	border-radius: 0px;
 	padding: 10px 0;
 }
@@ -226,7 +226,40 @@ hr {
 #about {
 	padding: 100px 0;
 	background: #E9CDA2;
+
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
+
 #about .about-text {
 	margin-left: 10px;
 }
@@ -241,7 +274,14 @@ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 #about p {
 	margin-top: 20px;
 	margin-bottom: 30px;
+	
+    
 }
+
+
+
+
+
 
 a.linky { 
 	text-decoration-line: underline;
@@ -294,13 +334,13 @@ a.linky {
 /* Portfolio Section */
 #portfolio {
 	padding: 80px 0;
-	background: #E9CDA2; /* Old browsers */
-	background: -moz-linear-gradient(top, #E9CDA2 0%, #E9CDA2 49%, #E9CDA2 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #E9CDA2), color-stop(49%, #E9CDA2), color-stop(100%, #E9CDA2)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #E9CDA2 0%, #E9CDA2 49%, #E9CDA2 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #E9CDA2 0%, #E9CDA2 49%, #E9CDA2 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #E9CDA2 0%, #E9CDA2 49%, #E9CDA2 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #E9CDA2 0%, #E9CDA2 49%, #E9CDA2 100%); /* W3C */
+	background: #b8dff0; /* Old browsers */
+	background: -moz-linear-gradient(top, #b8dff0 0%, #b8dff0 49%, #b8dff0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b8dff0), color-stop(49%, #b8dff0), color-stop(100%, #b8dff0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #b8dff0 0%, #b8dff0 49%, #b8dff0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #b8dff0 0%, #b8dff0 49%, #b8dff0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #b8dff0 0%, #b8dff0 49%, #b8dff0 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #b8dff0 0%, #b8dff0 49%, #b8dff0 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E9CDA2', endColorstr='#E9CDA2', GradientType=0 ); /* IE6-9 */
 }
 .categories {
@@ -533,8 +573,8 @@ ol.type li a:hover {
 /* Contact Section */
 #contact {
 	padding: 100px 0 40px 0;
-	color: #121d1f;
-	background: #90A4AE;
+	color: black;
+	background: #3e4e88;
 }
 #contact h2 {
 	color: #fff;
@@ -640,7 +680,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Footer Section*/
 #footer {
-	background: black;
+	background: #1a2c5b;
 	color: #7d8384;
 	padding: 30px 0 25px 0;
 }

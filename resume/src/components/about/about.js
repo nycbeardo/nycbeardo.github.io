@@ -14,7 +14,7 @@ export default class About extends Component {
             <div className="col-md-8 col-md-offset-2">
               <div className="about-text">
               <p>I am a curious, self driven Web Developer and UI/UX designer based in NYC who is passionate 
-              in Digital Art, Emerging technologies, Human-Computer Interaction, accessability in UI/UX design, and tech education for underrepresented and marginalized groups. 
+              about Digital Art, Emerging technologies, Human-Computer Interaction, accessability in UI/UX design, and tech education for underrepresented and marginalized groups. 
               I believe in advocating for good design that is easy to use, provides a enjoyable experience and most importantly has good social impact for society at large.</p>
 
 

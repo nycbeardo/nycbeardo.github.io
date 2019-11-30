@@ -118,7 +118,7 @@ hr {
 }
 .navbar-custom {
 	margin-bottom: 0;
-	background-color: black;
+	background-color: #1a2c5b;
 	border-radius: 0px;
 	padding: 10px 0;
 }
@@ -230,7 +230,40 @@ hr {
 	padding: 100px 0;
 	background-color: whitesmoke;
 
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2s; /* Firefox < 16 */
+	 -ms-animation: fadein 2s; /* Internet Explorer */
+	  -o-animation: fadein 2s; /* Opera < 12.1 */
+		 animation: fadein 2s;
+
 }
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
+
 #about .about-text {
 	margin-left: 10px;
 }
@@ -246,6 +279,8 @@ clip-path: circle(50% at 50% 50%);
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
+
+
 
 a.linky { 
 	text-decoration-line: underline;
@@ -299,7 +334,7 @@ a.linky {
 /* Portfolio Section */
 #portfolio {
 	padding: 80px 0;
-	background-color: whitesmoke;
+	background-color: #b8dff0;
 
 }
 .categories {
@@ -540,8 +575,8 @@ ol.type li a:hover {
 /* Contact Section */
 #contact {
 	padding: 100px 0 40px 0;
-	color: #121d1f;
-	background: black;
+	color: black;
+	background: #3e4e88;
 }
 #contact h2 {
 	color: #fff;
@@ -647,7 +682,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Footer Section*/
 #footer {
-	background: black;
+	background:  #1a2c5b;
 	color: #7d8384;
 	padding: 30px 0 25px 0;
 }
