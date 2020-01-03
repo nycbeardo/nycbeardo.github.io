@@ -20,8 +20,9 @@ export default class About extends Component {
 
             <p>In addition I believe continuous learning about new methodologies as well as understanding one another and 
               fair collaboration is crucial when it comes to the projects and products we build. 
-              Thoughtful design and equality in tech and design are extremely important in today's ever connected world. 
-              I strive to promote and embrace these ideas when I am connecting with others from all walks of life, 
+              Thoughtful design and equality in tech and design are extremely important in today's ever connected world. </p>
+
+              <p>I strive to promote and embrace these ideas when I am connecting with others from all walks of life, 
               through social media, <a class="linky" href="https://objector.netlify.com"> my personal blog</a>, and even in person at conferences and meetups.
             </p>
                 <p className="text-center"><a className="btn btn-primary" href="https://drive.google.com/open?id=1EPdDs5eNJPp_te04DVVv-xXuBbXpISeK"><i className="fa fa-download" /> Download Resume</a></p>

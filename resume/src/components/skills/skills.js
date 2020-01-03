@@ -11,31 +11,31 @@ export default  class Skills extends Component {
           </div>
           <div className="row">
             <div className="col-md-4 col-sm-6 skill">
-              <h4>HTML5 <i className="devicon-html5-plain colored" style={{fontSize: '60px'}} /></h4>
+              <h4><i className="fab fa-html5" style={{fontSize: '60px'}} /></h4>
             </div>
             <div className="col-md-4 col-sm-6 skill">
-              <h4>CSS3 <i className="devicon-css3-plain colored" style={{fontSize: '60px'}} /></h4>
+              <h4><i className="fab fa-css3" style={{fontSize: '60px'}} /></h4>
             </div>
             <div className="col-md-4 col-sm-6 skill">
-            <h4>Javascript <i class="devicon-javascript-plain colored" style="font-size:60px;"></i></h4>
+            <h4><i class="fab fa-js-square" style="font-size:60px;"></i></h4>
             </div>
             <div className="col-md-4 col-sm-6 skill">
-              <h4>Bootstrap <i className="devicon-bootstrap-plain colored" style={{fontSize: '60px'}} /></h4>
+              <h4> <i className="fab fa-bootstrap" style={{fontSize: '60px'}} /></h4>
             </div>
             <div className="col-md-4 col-sm-6 skill">
-            <h4>React<i class="devicon-react-plain colored" style="font-size:60px;"></i></h4>
+            <h4><i class="fab fa-react" style="font-size:60px;"></i></h4>
             </div>
             <div className="col-md-4 col-sm-6 skill">
-              <h4>Python <i className="devicon-python-plain colored" style={{fontSize: '60px'}} /></h4>
+              <h4><i className="fab fa-python" style={{fontSize: '60px'}} /></h4>
             </div>
             <div className="col-md-4 col-sm-6 skill">
-              <h4>C++ <i className="devicon-cplusplus-plain colored" style={{fontSize: '60px'}} /></h4>
+              <h4><i className="fab fa-adobe" style={{fontSize: '60px'}} /></h4>
             </div>
             <div className="col-md-4 col-sm-6 skill">
-              <h4>Git <i className="devicon-git-plain colored" style={{fontSize: '60px'}} /></h4>
+              <h4><i className="fab fa-figma" style={{fontSize: '60px'}} /></h4>
             </div>
             <div className="col-md-4 col-sm-6 skill">
-              <h4>Java <i className="devicon-java-plain colored" style={{fontSize: '60px'}} /></h4>
+              <h4> <i className="fab fa-invision" style={{fontSize: '60px'}} /></h4>
             </div>
           </div>
         </div>

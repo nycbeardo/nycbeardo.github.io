@@ -303,7 +303,7 @@ a.linky {
 /* Portfolio Section */
 #portfolio {
 	padding: 80px 0;
-	background-color: #b8dff0;
+	background-color: #ffffff;
 
 }
 .categories {
@@ -545,13 +545,13 @@ ol.type li a:hover {
 #contact {
 	padding: 100px 0 40px 0;
 	color: black;
-	background: #3e4e88;
+	background: #ffffff;
 }
 #contact h2 {
-	color: #fff;
+	color: rgb(0, 0, 0);
 }
 #contact hr {
-	background: rgba(255,255,255,0.3);
+	background: #629ca7;
 }
 #contact h3 {
 	padding-top: 20px;
