@@ -12,10 +12,11 @@ export default class Contact extends Component {
           <div className="col-md-8 col-md-offset-2">
             <div className="social">
               <ul>
-                <li><a href="https://twitter.com/NYCBEARDO"><i className="fa fa-twitter" /></a></li>
-                <li><a href="https://github.com/nycbeardo"><i className="fa fa-github" /></a></li>
-                <li><a href="https://www.linkedin.com/in/montique-stevens/"><i className="fa fa-linkedin" /></a></li>
-                <li><a href="https://objector.netlify.com"><i className="fa fa-pencil-square-o" /></a></li>
+              <li><a href="https://twitter.com/NYCBEARDO"><i class="fab fa-twitter fa-3x"></i></a></li>
+              <li><a href="https://github.com/nycbeardo"><i class="fab fa-github fa-3x" ></i></a></li>
+              
+              <li><a href="https://objector.netlify.com"><i class="fas fa-blog fa-3x" ></i></a></li>
+              <li><a href="https://dribbble.com/nycbeardo"><i class="fab fa-dribbble fa-3x" ></i></a></li>
                 
               </ul>
             </div>
