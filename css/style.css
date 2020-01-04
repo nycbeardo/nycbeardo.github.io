@@ -305,6 +305,7 @@ a.linky {
 	padding: 80px 0;
 	background-color: #ffffff;
 	background: url(../img/328.jpg)  no-repeat center bottom;
+	background-size: cover;
 	
 
 }
