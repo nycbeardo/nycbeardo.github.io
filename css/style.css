@@ -304,6 +304,8 @@ a.linky {
 #portfolio {
 	padding: 80px 0;
 	background-color: #ffffff;
+	background: url(../img/328.jpg)  no-repeat center bottom;
+	
 
 }
 .categories {
@@ -546,6 +548,9 @@ ol.type li a:hover {
 	padding: 100px 0 40px 0;
 	color: black;
 	background: #ffffff;
+	background: url(../img/329.jpg)  no-repeat center top;
+	
+
 }
 #contact h2 {
 	color: rgb(0, 0, 0);
