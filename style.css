@@ -28,6 +28,16 @@ body {
     line-height: 1.80857;
 }
 
+strong {
+    font-weight: bold;
+    color: black;
+  }
+
+strong:hover {
+    color: blue;
+}
+
+
 html, body{
 	height: 100%;
 }
@@ -95,7 +105,7 @@ h2 {
 }
 
 h3 {
-    font-size: 18px
+    font-size: 16px
 }
 
 h4 {
