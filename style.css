@@ -80,6 +80,11 @@ a {
     transition: all .3s ease-in-out;
 }
 
+h5.links {
+    font-size: 30px;
+    color: white;
+}
+
 h1,
 h2,
 h3,
@@ -2146,6 +2151,7 @@ select.mobile-device {
     color: #999;
     background-color: #1f1f1f;
     text-align: center;
+    
 }
 
 .footer .widget-title {
@@ -2174,15 +2180,18 @@ select.mobile-device {
     list-style: none;
     padding: 0;
     text-align: center;
+    
 }
 
 .footer-links a {
     color: #999;
+    
 }
 
 .footer-links a:hover,
 .footer a:hover {
     color: #f88f8f !important;
+   
 }
 
 .footer-links li {
@@ -2191,6 +2200,7 @@ select.mobile-device {
     width: 100%;
     border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
     padding-bottom: 10px;
+    
 }
 
 .twitter-widget li {
@@ -2217,7 +2227,7 @@ select.mobile-device {
     text-align: center;
 }
 
-.copyrights {
+#copyrights {
     border-top: 1px dashed rgba(255, 255, 255, 0.1);
     background-color: #1f1f1f;
     box-sizing: border-box;
