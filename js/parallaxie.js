@@ -13,7 +13,7 @@
 
         var options = $.extend({
             speed: 0.2,
-            repeat: 'repeat',
+            repeat: 'no-repeat',
             size: 'cover',
             pos_x: 'center',
             offset: 0,
