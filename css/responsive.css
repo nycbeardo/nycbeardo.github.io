@@ -59,6 +59,10 @@
 	#mainNav {
 		background-color: #5E0622;
 	}
+
+	#home {
+		background: url('uploads/banner-01.jpg');
+	}
 	.navbar-dark .navbar-brand{
 		width: 55%;
 	}
@@ -106,6 +110,10 @@
 @media only screen and (min-width: 280px) and (max-width: 599px) {
 	#mainNav {
 		background-color: #5E0622;
+	}
+
+	#home {
+		background: url('uploads/banner-01.jpg');
 	}
 	.navbar-dark .navbar-brand{
 		width: 55%;
