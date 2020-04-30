@@ -382,7 +382,7 @@ a img.aligncenter {
     bottom: 0;
     left: 0;
     right: 0;
-  background-color: #000;
+  background-color: rgb(65, 14, 32);
     z-index: 0;
     opacity: .6;
 }
