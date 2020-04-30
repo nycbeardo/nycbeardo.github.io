@@ -22,10 +22,14 @@
 -------------------------------------------------------------------*/
 
 body {
-    color: #999999;
+    color: #222121;
     font-size: 14px;
     font-family: 'Roboto Mono', monospace;
     line-height: 1.80857;
+}
+
+div#about {
+    background-color: #d7d9b1;
 }
 
 strong {
@@ -97,7 +101,7 @@ h6 {
     padding: 0 0 10px 0;
     font-weight: normal;
     line-height: 120% !important;
-    color: #333333;
+    color: #0f0f0f;
     margin: 0
 }
 
@@ -160,6 +164,11 @@ a,
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+}
+
+p.credit {
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .btn-custom {
@@ -460,7 +469,7 @@ xclip
 #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #333333;
+    background-color: #5e0622;
 }
 
 #clouds{
@@ -503,7 +512,7 @@ xclip
 }
 
 .section.lb {
-    background-color: #f2f3f5;
+    background-color: #c2c4a2  /* for blog and portfolio section */
 }
 
 .section.db {
@@ -689,6 +698,8 @@ xclip
 /*------------------------------------------------------------------
     PORTFOLIO
 -------------------------------------------------------------------*/
+
+
 
 .item-h2,
 .item-h1 {
@@ -1430,14 +1441,14 @@ hr.invis1 {
 }
 
 .filter-button-group{
-	border: 1px solid #e4e4e4;
+	/* border: 1px solid #e4e4e4; */
 	border-radius: 0px;
 	margin: 10px 0px;
 	display: inline-block;
 }
 
 .filter-button-group button.active{
-	background: #333333;
+	background: #5E0622;
 	color: #fff;
 	box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);	
 }
@@ -2229,7 +2240,7 @@ select.mobile-device {
 
 #copyrights {
     border-top: 1px dashed rgba(255, 255, 255, 0.1);
-    background-color: #1f1f1f;
+    background-color: #5e0622;
     box-sizing: border-box;
     align-content: center;
     width: 100%;
