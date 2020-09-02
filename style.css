@@ -1475,7 +1475,9 @@ hr.invis1 {
 	position: relative;
 	overflow: hidden;
 	-webkit-box-shadow: 0 0 10px #ccc;
-	box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    border: 2px solid rgb(92, 56, 56);
 }
 
 .gallery-list .img-overlay {
