@@ -2167,6 +2167,60 @@ select.mobile-device {
 	color: #cccccc;
 }
 
+
+.footer-links .social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+  
+  .footer-links .social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+    
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+  }
+
+
+
+
+
+
+.footer-links #social-fb:hover {
+    color: #cc3030;
+  }
+  
+  .footer-links #social-tw:hover {
+    color: #4099FF;
+  }
+  
+  .footer-links #social-dr:hover {
+    color: #992de0;
+  }
+  
+  .footer-links #social-gh:hover {
+    color: #f39c12;
+  }
+  
+  .footer-links #social-dv:hover {
+    color: #0cb845;
+  }
+  
+  .footer-links #social-em:hover {
+    color: #d7eb26;
+  }
+
+
+
+
+
+
+
+
 /*------------------------------------------------------------------
     MISC
 -------------------------------------------------------------------*/
