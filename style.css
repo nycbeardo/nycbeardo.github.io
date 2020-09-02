@@ -4,7 +4,9 @@
     IMPORT GOOGLE FONTS
 -------------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap'); */
 
 /*------------------------------------------------------------------
     IMPORT CSS FILES
@@ -24,12 +26,13 @@
 body {
     color: #222121;
     font-size: 14px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+/* font-family: 'Work Sans', sans-serif; */
     line-height: 1.80857;
 }
 
 div#about {
-    background-color: #d7d9b1;
+    background-color: white;
 }
 
 strong {
@@ -106,27 +109,27 @@ h6 {
 }
 
 h1 {
-    font-size: 24px
+    font-size: 24px;
 }
 
 h2 {
-    font-size: 22px
+    font-size: 22px;
 }
 
 h3 {
-    font-size: 16px
+    font-size: 16px;
 }
 
 h4 {
-    font-size: 16px
+    font-size: 15px;
 }
 
 h5 {
-    font-size: 14px
+    font-size: 14px;
 }
 
 h6 {
-    font-size: 13px
+    font-size: 13px;
 }
 
 h1 a,
@@ -512,7 +515,7 @@ xclip
 }
 
 .section.lb {
-    background-color: #c2c4a2  /* for blog and portfolio section */
+    background-color: #ffffff  /* for blog and portfolio section */
 }
 
 .section.db {
@@ -829,201 +832,12 @@ xclip
 }
 
 
-/*------------------------------------------------------------------
-    TESTIMONIALS
--------------------------------------------------------------------*/
-
-.logos img {
-    margin: auto;
-    display: block;
-    text-align: center;
-    width: 100%;
-    opacity: 0.3;
-}
-
-.logos img:hover {
-    opacity: 0.5;
-}
-
-.desc h3 i {
-    color: #cccccc;
-    font-size: 37px;
-    vertical-align: middle;
-    margin-right: 12px;
-}
-
-.desc {
-    padding: 30px;
-    position: relative;
-    background: #000;
-    border: 1px solid #111111;
-}
-
-.testi-meta {
-    display: block;
-    margin-top: 20px;
-}
-
-.testimonial h4 {
-    font-size: 18px;
-    color: #333333;
-    padding: 13px 0 0;
-}
-
-.testimonial img {
-    max-width: 55px;
-}
-
-.testimonial small {
-    margin-top: 7px;
-    font-size: 16px;
-    display: block;
-}
-
-.testimonial {
-    background-color: transparent;
-}
-
-.testimonial h3 {
-    padding: 0 0 10px;
-    font-size: 20px;
-    font-weight: 600;
-	color: #ffffff;
-}
-
-.testimonial small,
-.testimonial .lead {
-    background-color: transparent;
-    color: #aaa;
-    display: block;
-    font-size: 16px;
-    font-style: normal;
-    line-height: 30px;
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
-
-.testimonial p:after {
-    display: none;
-}
 
 
-/*------------------------------------------------------------------
-    PRICING TABLES
--------------------------------------------------------------------*/
-
-.pricing-table {
-    margin: 50px 0 0 0;
-    background: #fff;
-    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
-}
-
-.pricing-table i {
-    width: 30px;
-    color: #c2c2c2;
-    display: inline-block;
-    margin-right: 10px;
-    padding-right: 5px;
-    border-right: 1px solid #ececec;
-}
-
-.pricing-table .btn-dark {
-    padding: 10px 24px;
-    font-size: 15px;
-}
-
-.pricing-table strong {
-    font-weight: 600;
-    margin-right: 6px;
-    color: #1f1f1f;
-}
-
-.pricing-table-header {
-    padding: 30px 0 25px 0;
-    background: #ffffff;
-}
-
-.pricing-table-header h2 {
-    font-size: 31px;
-    margin: 0;
-    padding: 0;
-    font-weight: 300;
-}
-
-.pricing-table-header h3 {
-    font-size: 15px;
-    font-weight: 600;
-    color: #aaaaaa;
-    margin-top: 10px;
-    text-transform: uppercase;
-}
-
-.pricing-table-space {
-    height: 10px;
-}
-
-.pricing-table-text {
-    margin: 15px 30px 0 30px;
-    padding: 0 10px 15px 10px;
-    border-bottom: 1px solid #ececec;
-    font-weight: 300;
-    line-height: 30px;
-    color: #c2c2c2;
-    font-size: 16px;
-}
-
-.pricing-table-text p {
-    font-weight: 400;
-}
-
-.pricing-table-features {
-    margin: 15px 30px 0 30px;
-    padding: 0 10px 15px 30px;
-    border-bottom: 1px solid #ececec;
-    text-align: left;
-    line-height: 30px;
-    font-size: 16px;
-    color: #c2c2c2;
-}
-
-.pricing-table-highlighted h3,
-.pricing-table-highlighted h2 {
-    color: #ffffff !important;
-}
-
-.pricing-table-sign-up {
-    margin-top: 25px;
-    padding-bottom: 30px;
-}
 
 
-/* Highlighted table */
 
-.pricing-table-highlighted {
-    margin-top: 0;
-}
 
-.m130 {
-    margin-top: 130px;
-}
-
-.nav-pills {
-    border: 1px solid #e1e1e1;
-}
-
-.nav-pills > li {
-    width: 50%;
-    padding: 10px;
-    float: left;
-    margin: 0 !important;
-}
-
-.nav-pills > li > a {
-    margin: 0!important;
-    text-align: center;
-    background-color: #f4f4f4;
-}
 
 
 /*------------------------------------------------------------------
@@ -1466,7 +1280,7 @@ hr.invis1 {
 	border-radius: 0px;
 }
 
-
+/* portfolio section */
 .gallery-single{
 	margin: 30px 15px;;
 }
@@ -1475,7 +1289,9 @@ hr.invis1 {
 	position: relative;
 	overflow: hidden;
 	-webkit-box-shadow: 0 0 10px #ccc;
-	box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    border: 2px solid rgb(92, 56, 56);
 }
 
 .gallery-list .img-overlay {
@@ -1522,9 +1338,12 @@ hr.invis1 {
 }
 
 .post-box{
-	-webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
-	box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
-	background: #ffffff;
+	-webkit-box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.15);
+	box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.15);
+    background: #ffffff;
+    border-radius: 10px;
+    border: 2px solid rgb(92, 56, 56);
+    
 }
 
 .post-box:hover .post-thumb::before{
@@ -2347,6 +2166,60 @@ select.mobile-device {
 .footer-distributed .footer-company-name a:hover{
 	color: #cccccc;
 }
+
+
+.footer-links .social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+  
+  .footer-links .social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+    
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+  }
+
+
+
+
+
+
+.footer-links #social-fb:hover {
+    color: #cc3030;
+  }
+  
+  .footer-links #social-tw:hover {
+    color: #4099FF;
+  }
+  
+  .footer-links #social-dr:hover {
+    color: #992de0;
+  }
+  
+  .footer-links #social-gh:hover {
+    color: #f39c12;
+  }
+  
+  .footer-links #social-dv:hover {
+    color: #0cb845;
+  }
+  
+  .footer-links #social-em:hover {
+    color: #d7eb26;
+  }
+
+
+
+
+
+
+
 
 /*------------------------------------------------------------------
     MISC
