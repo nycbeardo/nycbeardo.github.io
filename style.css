@@ -29,7 +29,7 @@ body {
 }
 
 div#about {
-    background-color: #d7d9b1;
+    background-color: white;
 }
 
 strong {
@@ -512,7 +512,7 @@ xclip
 }
 
 .section.lb {
-    background-color: #c2c4a2  /* for blog and portfolio section */
+    background-color: #ffffff  /* for blog and portfolio section */
 }
 
 .section.db {
