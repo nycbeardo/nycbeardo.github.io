@@ -515,7 +515,7 @@ xclip
 }
 
 .section.lb {
-    background-color: #c2c4a2  /* for blog and portfolio section */
+    background-color: #ffffff  /* for blog and portfolio section */
 }
 
 .section.db {
@@ -1471,7 +1471,16 @@ hr.invis1 {
 
 
 .gallery-single{
-	margin: 30px 15px;;
+    margin: 30px 15px;
+    position: relative;
+    box-shadow: black 0px 0px 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(92, 56, 56);
+    border-image: initial;
+
 }
 
 .gallery-single {
@@ -2280,6 +2289,55 @@ select.mobile-device {
     color: #666;
     padding: 0;
 }
+
+
+.footer-links .social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+  
+  .footer-links .social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+    
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+  }
+  /*
+      Multicoloured Hover Variations
+  */
+  
+  .footer-links #social-fb:hover {
+    color: #cc3030;
+  }
+  
+  .footer-links #social-tw:hover {
+    color: #4099FF;
+  }
+  
+  .footer-links #social-dr:hover {
+    color: #992de0;
+  }
+  
+  .footer-links #social-gh:hover {
+    color: #f39c12;
+  }
+  
+  .footer-links #social-dv:hover {
+    color: #0cb845;
+  }
+  
+  .footer-links #social-em:hover {
+    color: #d7eb26;
+  }
+
+
+
+
 
 
 /* Footer right */
