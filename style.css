@@ -144,6 +144,11 @@ h6 a {
     opacity: 1
 }
 
+.message-box h2 {
+    font-size: 38px;
+    font-weight: 500px;
+}
+
 h1 a:hover,
 h2 a:hover,
 h3 a:hover,
